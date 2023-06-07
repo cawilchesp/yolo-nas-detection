@@ -1,9 +1,9 @@
-YOLO:
-  YOLO_WEIGHTS: 'yolov8m'
+YOLO_NAS:
+  YOLO_NAS_WEIGHTS: 'yolo_nas_m'
 INPUT:
   FOLDER: 'D:/INTEIA/Videos/Proyectos/Ruta_Costera/'
-  # FILE: 'PTZ010'
-  FILE: 'CAR021'
+  FILE: 'PTZ010'
+  # FILE: 'CAR021'
   # FILE: 'OP030'
 
   # FOLDER: 'D:/INTEIA/Videos/DEEP_CCTV/'
@@ -20,12 +20,9 @@ INPUT:
 
 DETECTION:
   CLASS_FILTER: [0,1,2,3,5,7]
-  # CLASS_FILTER: [0]
-  # CLASS_FILTER: [0,1]
 SHOW:
   BOXES: True
   LABELS: True
-  TRACKS: True
 SAVE:
   VIDEO: True
   CSV: True
